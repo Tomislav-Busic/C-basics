@@ -1,5 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
+using SecondC_;
+
 var name = "Tomislav";
 Console.WriteLine(name);
 
@@ -83,7 +85,27 @@ else
 
 Console.WriteLine(newLine);
 
-//////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////
+Console.WriteLine("Stack vs Heap");
+
+// Stack is for value type and a Heap is for reference types
+
+// Stack has very small types of data
+// Heap is usually reserved for large pices of data (objects)
+
+int testValue = 4;
+byte lowLevelValue = 3;
+bool bollValue = false;
+string stringValue = "reference type";
+
+Console.WriteLine(stringValue);
+
+FirstHeap stackHeap = new();
+
+var calculator = stackHeap.AddFive(testValue);
+
+Console.WriteLine(calculator);
+
 
 
 
