@@ -152,10 +152,10 @@ Console.WriteLine(newLine);
 
 
 ///////////////////////////////////////////////////////////////////////////////
-///
-StringsInDepth stringsID = new();
 
-Console.WriteLine(stringsID);
+StringsInDepth stringsInD = new();
+
+Console.WriteLine(stringsInD);
 
 
 
