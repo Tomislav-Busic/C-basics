@@ -144,6 +144,13 @@ Console.WriteLine(avargeValue);
 
 Console.WriteLine(newLine);
 ///////////////////////////////////////////////////////////////////////////////
+Console.WriteLine("Strings In-Depth");
+
+// Strings - an object whose value is text.
+
+// reference type
+
+
 
 
 
