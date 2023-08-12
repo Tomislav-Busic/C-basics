@@ -2,28 +2,22 @@
 
 using SecondC_;
 
-var name = "Tomislav";
-Console.WriteLine(name);
-
 string newLine = "//////////////////////////////////////////////////////////////////////////////";
 Console.WriteLine(newLine);
 
-//////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////
 
-// DATA TYPES
+DataTypes dataTypes = new();
 
+Console.WriteLine(dataTypes);
 
-int integerExe = 7 + 5;
-string b = "34524" + "83457";
-byte c = 255; // 0-255 max
-double testDouble = 14.45;
-float testFloat = 23.2323f; // f to the end
-decimal testDecimal = .1212356m; // m to the end
-
+Console.WriteLine(newLine);
 
 /////////////////////////////////////////////////////////////
 
+Tests tests = new();
 
+Console.WriteLine(tests);
 
 Console.WriteLine(newLine);
 
