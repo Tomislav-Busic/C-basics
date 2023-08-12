@@ -61,31 +61,7 @@ Console.WriteLine(newLine);
 
 //////////////////////////////////////////////////////////
 
-Console.WriteLine("Type Casting");
 
-// Type Casting in C#
-
-// Converting data after it has been assigned at compilation
-// Implicit and Explicit
-
-double x = 2345.43;
-int a;
-// Cast double to int. EXPLICIT CONVERSATION
-a = (int)x;
-Console.WriteLine(a);
-
-// String to int;
-
-string value = "2345234";
-int result;
-if (int.TryParse(value, out result))
-{
-    Console.WriteLine("Success: " + result);
-}
-else
-{
-    Console.WriteLine("Failure.");
-}
 
 Console.WriteLine(newLine);
 
@@ -113,40 +89,9 @@ Console.WriteLine(newLine);
 
 ////////////////////////////////////////////////////////////////////
 
-// Array - collection of fixed set of values. Arrays are used to store multiple values in a single variable;
+Arrays arraysExm = new();
 
-Console.WriteLine("Arrays");
-
-// Fixed
-
-int[] firstArr = new int[2];
-
-string[] stringArr = new string[2];
-
-object[] objectsArr = new object[4];
-
-firstArr[0] = 1;
-
-Console.WriteLine(firstArr);
-Console.WriteLine(stringArr);
-Console.WriteLine(objectsArr);
-
-// Dynamic
-
-int[] staticArrays = new int[] { 1, 2, 3, 4 };
-
-Console.WriteLine(staticArrays[0]);
-
-foreach (int num in staticArrays)
-{
-    Console.WriteLine(num);
-}
-
-var avargeValue = staticArrays.Average();
-
-Console.WriteLine(avargeValue);
-
-// Array - right click -> go to definition
+Console.WriteLine(arraysExm);
 
 Console.WriteLine(newLine);
 
