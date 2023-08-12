@@ -74,7 +74,7 @@ Console.WriteLine(a);
 
 string value = "2345234";
 int result;
-if(int.TryParse(value, out result))
+if (int.TryParse(value, out result))
 {
     Console.WriteLine("Success: " + result);
 }
@@ -94,8 +94,6 @@ Console.WriteLine("Stack vs Heap");
 // Heap is usually reserved for large pices of data (objects)
 
 int testValue = 4;
-byte lowLevelValue = 3;
-bool bollValue = false;
 string stringValue = "reference type";
 
 Console.WriteLine(stringValue);
@@ -105,6 +103,13 @@ FirstHeap stackHeap = new();
 var calculator = stackHeap.AddFive(testValue);
 
 Console.WriteLine(calculator);
+
+Console.WriteLine(newLine);
+
+////////////////////////////////////////////////////////////////////
+// Array - collection of fixed set of values. Arrays are used to store multiple values in a single variable;
+
+int[] firstArr = new int[2];
 
 
 
