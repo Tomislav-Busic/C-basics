@@ -170,6 +170,19 @@ Console.WriteLine(letters);
 // VALUE TYPES CANNOT BE NULL
 string message = null;
 
+// Literal vs Verbatim
+string filePath = "c:\\ProgramFiles";
+
+string filePathVerbatim = @"c:\\ProgramFiles";
+
+// Strings immutability (Read only)
+
+string s1 = "Hello ";
+string s2 = s1;
+s2 += "World";
+
+Console.WriteLine(s2);
+
 
 
 
