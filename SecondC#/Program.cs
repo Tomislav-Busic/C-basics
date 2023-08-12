@@ -9,7 +9,9 @@ string newLine = "//////////////////////////////////////////////////////////////
 Console.WriteLine(newLine);
 
 //////////////////////////////////////////////////
+
 // DATA TYPES
+
 
 int integerExe = 7 + 5;
 string b = "34524" + "83457";
@@ -20,6 +22,7 @@ decimal testDecimal = .1212356m; // m to the end
 
 
 /////////////////////////////////////////////////////////////
+
 Console.WriteLine("Test");
 
 int LADSJFLKDJASF =  1/1;
@@ -57,6 +60,7 @@ Console.WriteLine(learnVariables);
 Console.WriteLine(newLine);
 
 //////////////////////////////////////////////////////////
+
 Console.WriteLine("Type Casting");
 
 // Type Casting in C#
@@ -86,6 +90,7 @@ else
 Console.WriteLine(newLine);
 
 ////////////////////////////////////////////////////////////////////
+
 Console.WriteLine("Stack vs Heap");
 
 // Stack is for value type and a Heap is for reference types
@@ -107,6 +112,7 @@ Console.WriteLine(calculator);
 Console.WriteLine(newLine);
 
 ////////////////////////////////////////////////////////////////////
+
 // Array - collection of fixed set of values. Arrays are used to store multiple values in a single variable;
 
 Console.WriteLine("Arrays");
@@ -143,12 +149,24 @@ Console.WriteLine(avargeValue);
 // Array - right click -> go to definition
 
 Console.WriteLine(newLine);
+
 ///////////////////////////////////////////////////////////////////////////////
+
 Console.WriteLine("Strings In-Depth");
 
 // Strings - an object whose value is text.
 
 // reference type
+
+// double
+string word = "task";
+
+// single
+char[] letters = new char[] {'t', 'a', 's', 'k', 's' };
+
+Console.WriteLine(word);
+Console.WriteLine(letters);
+
 
 
 
