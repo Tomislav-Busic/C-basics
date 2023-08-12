@@ -188,7 +188,11 @@ Console.WriteLine(s2);
 string firstName = "Tomislav";
 string lastName = "Bušić";
 
+// String Interpolation
 Console.WriteLine($"My name {firstName} {lastName}");
+
+// Composite Formatting
+Console.WriteLine("My name {0} {1}", firstName, lastName);
 
 
 
