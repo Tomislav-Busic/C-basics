@@ -109,8 +109,20 @@ Console.WriteLine(newLine);
 ////////////////////////////////////////////////////////////////////
 // Array - collection of fixed set of values. Arrays are used to store multiple values in a single variable;
 
+
+// Fixed
+
 int[] firstArr = new int[2];
 
+string[] stringArr = new string[2];
+
+object[] objectsArr = new object[4];
+
+firstArr[0] = 1;
+
+Console.WriteLine(firstArr);
+Console.WriteLine(stringArr);
+Console.WriteLine(objectsArr);
 
 
 
