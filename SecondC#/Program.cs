@@ -140,7 +140,7 @@ var avargeValue = staticArrays.Average();
 
 Console.WriteLine(avargeValue);
 
-
+// Array - right click -> go to definition
 
 Console.WriteLine(newLine);
 ///////////////////////////////////////////////////////////////////////////////
