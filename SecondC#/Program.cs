@@ -167,6 +167,9 @@ char[] letters = new char[] {'t', 'a', 's', 'k', 's' };
 Console.WriteLine(word);
 Console.WriteLine(letters);
 
+// VALUE TYPES CANNOT BE NULL
+string message = null;
+
 
 
 
