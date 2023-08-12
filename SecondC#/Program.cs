@@ -136,6 +136,10 @@ foreach (int num in staticArrays)
     Console.WriteLine(num);
 }
 
+var avargeValue = staticArrays.Average();
+
+Console.WriteLine(avargeValue);
+
 
 
 Console.WriteLine(newLine);
