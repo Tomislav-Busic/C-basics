@@ -183,6 +183,13 @@ s2 += "World";
 
 Console.WriteLine(s2);
 
+// String Interpolation + Composite Formatting
+
+string firstName = "Tomislav";
+string lastName = "Bušić";
+
+Console.WriteLine($"My name {firstName} {lastName}");
+
 
 
 
