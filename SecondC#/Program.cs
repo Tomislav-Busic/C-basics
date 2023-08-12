@@ -71,9 +71,17 @@ Console.WriteLine(newLine);
 
 // Lists in C#
 
-List<int> myList = new();
+List<ListsPart> myList = new()
+{
+    new ListsPart { PartName = "Tomislav", PartId = 1 },
+    new ListsPart { PartName = "Tajana", PartId = 2 },
+    new ListsPart { PartName = "Dora", PartId= 3}
+};
 
-
+foreach(ListsPart part in myList)
+{
+    Console.WriteLine($"name: {part.PartName}, id: {part.PartId}");
+}
 
 
 
