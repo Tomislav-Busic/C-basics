@@ -10,7 +10,15 @@ namespace SecondC_
     {
         public IfElseStatements()
         {
+            // If/Else Conditionals in C# 
 
+            var test = 1;
+            var test2 = 3;
+
+            if (test == 1)
+            {
+                Console.WriteLine("this part is executed");
+            }
         }
     }
 }
