@@ -95,6 +95,12 @@ namespace SecondC_
                 Console.WriteLine("The number is odd");
             }
 
+            // Inline statement. True return first number on the otherside of the ?
+
+            var inlineStatement = 5 == 5 ? "itIsTrue" : "notTrue";
+
+            Console.WriteLine(inlineStatement);
+
         }
     }
 }
