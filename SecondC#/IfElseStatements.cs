@@ -57,6 +57,44 @@ namespace SecondC_
             {
                 Console.WriteLine("You are not an adult yet");
             }
+
+            int x = 7;
+            int y = 5;
+            int z = 10;
+            if (x > y && x > z)
+            {
+                Console.WriteLine("x is the largest number");
+            }
+            else if (y > x && y > z)
+            {
+                Console.WriteLine("y is the largest number");
+            }
+            else
+            {
+                Console.WriteLine("z is the largest number");
+            }
+
+            string username = "admin";
+            string password = "password123";
+            if (username == "admin" && password == "password123")
+            {
+                Console.WriteLine("Access granted");
+            }
+            else
+            {
+                Console.WriteLine("Access denied");
+            }
+
+            int number2 = 15;
+            if (number2 % 2 == 0)
+            {
+                Console.WriteLine("The number is even");
+            }
+            else
+            {
+                Console.WriteLine("The number is odd");
+            }
+
         }
     }
 }
