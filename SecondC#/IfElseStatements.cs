@@ -28,6 +28,8 @@ namespace SecondC_
             bool greaterThan = 5 > 2; // true
             bool lessThan = 1 < 7; // true
 
+            bool greaterThenEqual = 5 >= 5; // true
+            bool lessThenEqual = 5 <= 5; // true
 
             // Logical explanation example
 
