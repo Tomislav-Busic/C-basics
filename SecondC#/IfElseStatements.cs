@@ -13,7 +13,6 @@ namespace SecondC_
             // If/Else Conditionals in C# 
 
             var test = 1;
-            var test2 = 3;
 
             if (test == 1)
             {
@@ -22,6 +21,9 @@ namespace SecondC_
             {
                 Console.WriteLine("I dont know what you want but im run");
             }
+
+            // Logical explanation example
+
         }
     }
 }
