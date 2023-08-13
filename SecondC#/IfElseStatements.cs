@@ -31,6 +31,11 @@ namespace SecondC_
             bool greaterThenEqual = 5 >= 5; // true
             bool lessThenEqual = 5 <= 5; // true
 
+            // AND OR
+
+            bool isEqualAndNotEqual = 4 == 4 && 4 != 7; // true
+            bool isEqualOrNotEqual = 4 == 4 || 4 == 7; // true
+
             // Logical explanation example
 
         }
