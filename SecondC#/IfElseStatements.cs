@@ -25,6 +25,8 @@ namespace SecondC_
             bool isEqual = 5 == 5; // true
             bool notEqual = 5 != 1; // true
 
+            bool greaterThan = 5 > 2; // true
+            bool lessThan = 1 < 7; // true
 
 
             // Logical explanation example
