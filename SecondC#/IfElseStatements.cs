@@ -22,6 +22,11 @@ namespace SecondC_
                 Console.WriteLine("I dont know what you want but im run");
             }
 
+            bool isEqual = 5 == 5; // true
+            bool notEqual = 5 != 1; // true
+
+
+
             // Logical explanation example
 
         }
