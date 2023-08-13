@@ -47,6 +47,16 @@ namespace SecondC_
             {
                 Console.WriteLine("The number is odd");
             }
+
+            int age = 18;
+            if (age >= 18)
+            {
+                Console.WriteLine("You are an adult");
+            }
+            else
+            {
+                Console.WriteLine("You are not an adult yet");
+            }
         }
     }
 }
