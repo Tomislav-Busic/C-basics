@@ -38,6 +38,15 @@ namespace SecondC_
 
             // Logical explanation example
 
+            int number = 15;
+            if (number % 2 == 0)
+            {
+                Console.WriteLine("The number is even");
+            }
+            else
+            {
+                Console.WriteLine("The number is odd");
+            }
         }
     }
 }
