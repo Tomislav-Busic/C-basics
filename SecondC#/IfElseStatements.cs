@@ -18,6 +18,9 @@ namespace SecondC_
             if (test == 1)
             {
                 Console.WriteLine("this part is executed");
+            } else
+            {
+                Console.WriteLine("I dont know what you want but im run");
             }
         }
     }
