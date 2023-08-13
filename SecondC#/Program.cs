@@ -84,6 +84,11 @@ foreach(ListsPart part in myList)
 }
 
 
+Console.WriteLine(newLine);
+
+///////////////////////////
+
+
 
 
 
