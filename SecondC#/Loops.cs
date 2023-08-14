@@ -43,6 +43,14 @@ namespace SecondC_
                 Console.WriteLine(letter);
             }
 
+            var numbers = new int[] { 1, 3, 45, 65, 23, 34, 44 };
+
+            foreach(var number in numbers)
+            {
+                Console.WriteLine($"Value of {number}");
+                Console.WriteLine("Iteration");
+            }
+
         }
     }
 }
