@@ -100,16 +100,19 @@ Loops loops = new();
 
 Console.WriteLine(loops);
 
-
+string word = "sssddd";
 
 LoopsAlgorithm forAlg = new();
-var code = forAlg.CountRepeatingLetters("sssddd");
-var encode = forAlg.ReverseCode("s3s3s3s2s3");
 
-Console.WriteLine(code);
-Console.WriteLine(encode);
+string code = forAlg.CountRepeatingLetters(word);
+string encode = forAlg.ReverseCode(code);
 
+if (word == encode)
+{
+    Console.WriteLine("Both functions work!");
+}
 
+Console.WriteLine(newLine);
 
 ///////////////////////////
 
