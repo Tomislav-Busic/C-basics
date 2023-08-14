@@ -36,6 +36,13 @@ namespace SecondC_
                 Console.WriteLine(el);
             }
 
+            string word = "a, b, c, d";
+
+            foreach (char letter in word)
+            {
+                Console.WriteLine(letter);
+            }
+
         }
     }
 }
