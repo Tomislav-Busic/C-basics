@@ -88,12 +88,17 @@ Console.WriteLine(newLine);
 
 ///////////////////////////
 
-
 IfElseStatements ifElse = new();
 
 Console.WriteLine(ifElse);
 
 Console.WriteLine(newLine);
+
+///////////////////////////
+
+Loops loops = new();
+
+Console.WriteLine(loops);
 
 ///////////////////////////
 
