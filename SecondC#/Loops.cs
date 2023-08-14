@@ -6,7 +6,16 @@ using System.Threading.Tasks;
 
 namespace SecondC_
 {
-    internal class Loops
+    public class Loops
     {
+        public Loops()
+        {
+            // For loop C#
+
+            // for (initializer, condition, interator) 
+            // { do some task over and over }
+
+
+        }
     }
 }
