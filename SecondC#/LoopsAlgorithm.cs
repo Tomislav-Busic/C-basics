@@ -27,5 +27,23 @@ namespace SecondC_
 
             return code;
         }
+
+        public string ReverseCode(string code)
+        {
+            string word = "";
+
+            for (int i = 0; i < code.Length; i += 2)
+            {
+                char character = code[i];
+                int count = int.Parse(code[i * 1].ToString());
+
+                for(int num = 0; num < count; num++)
+                {
+                    word += character;
+                }
+            }
+
+            return word;
+        }
     }
 }
