@@ -13,11 +13,11 @@ namespace SecondC_
             string code = "";
             int count = 1;
 
-            for (int i = 0; i < str.Length; i++)
+            for (int i = 0; i < str.Length - 1; i++)
             {
                 if (str[i] == str[i + 1])
                 {
-                    count++;
+                    count++; 
                 } else
                 {
                     code += str[1] + count.ToString();
