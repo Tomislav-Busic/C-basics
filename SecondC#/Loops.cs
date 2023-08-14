@@ -15,7 +15,10 @@ namespace SecondC_
             // for (initializer, condition, interator) 
             // { do some task over and over }
 
-
+            for (int i = 0; i < 3; i++)
+            {
+                Console.WriteLine($"Value of {i}");
+            }
         }
     }
 }
