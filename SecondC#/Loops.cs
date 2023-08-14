@@ -10,6 +10,8 @@ namespace SecondC_
     {
         public Loops()
         {
+            Console.WriteLine("Loops");
+
             // For loop C#
 
             // for (initializer, condition, interator) 
