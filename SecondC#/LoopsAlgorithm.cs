@@ -35,7 +35,7 @@ namespace SecondC_
             for (int i = 0; i < code.Length; i += 2)
             {
                 char character = code[i];
-                int count = int.Parse(code[i * 1].ToString());
+                int count = int.Parse(code[i + 1].ToString());
 
                 for(int num = 0; num < count; num++)
                 {
