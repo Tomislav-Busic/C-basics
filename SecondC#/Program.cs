@@ -100,6 +100,9 @@ Loops loops = new();
 
 Console.WriteLine(loops);
 
+LoopsAlgorithm forAlg = new LoopsAlgorithm();
+var solution = forAlg.Count
+
 ///////////////////////////
 
 

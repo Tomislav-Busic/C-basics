@@ -8,7 +8,7 @@ namespace SecondC_
 {
     public class LoopsAlgorithm
     {
-        public static string CountRepeatingLetters(string str)
+        public string CountRepeatingLetters(string str)
         {
             string code = "";
             int count = 1;
