@@ -29,6 +29,13 @@ namespace SecondC_
                 Console.WriteLine($"Value of {i}");
             }
 
+            var fibNumbers = new List<int>() { 0, 1, 1, 2, 3, 5, 8, 13 };
+
+            foreach(int el in fibNumbers)
+            {
+                Console.WriteLine(el);
+            }
+
         }
     }
 }
