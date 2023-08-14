@@ -102,7 +102,7 @@ Console.WriteLine(loops);
 
 string word = "sssddd";
 
-LoopsAlgorithm forAlg = new();
+LoopsAlgorithm forAlg = new();  // Javascript exercises with a small correction
 
 string code = forAlg.CountRepeatingLetters(word);
 string encode = forAlg.ReverseCode(code);
