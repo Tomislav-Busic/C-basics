@@ -21,6 +21,14 @@ namespace SecondC_
             {
                 Console.WriteLine($"Value of {i}");
             }
+
+            // reverse
+
+            for (int i = 0; i > 3; i--)
+            {
+                Console.WriteLine($"Value of {i}");
+            }
+
         }
     }
 }
