@@ -20,10 +20,13 @@ namespace SecondC_
                     count++; 
                 } else
                 {
-                    code += str[1] + count.ToString();
+                    code += str[i] + count.ToString();
                     count = 1;
                 }
             }
+
+            // Add the count of the last letter
+            code += str[str.Length - 1] + count.ToString();
 
             return code;
         }

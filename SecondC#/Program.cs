@@ -100,9 +100,11 @@ Loops loops = new();
 
 Console.WriteLine(loops);
 
+
+
 LoopsAlgorithm forAlg = new();
-var code = forAlg.CountRepeatingLetters("sssdddfffggsssaaa");
-var encode = forAlg.ReverseCode("f4g5");
+var code = forAlg.CountRepeatingLetters("sssddd");
+var encode = forAlg.ReverseCode("s3s3s3s2s3");
 
 Console.WriteLine(code);
 Console.WriteLine(encode);
